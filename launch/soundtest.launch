@@ -1,0 +1,5 @@
+<launch>
+    <node name="soundplay" pkg="sound_play" type="soundplay_node.py" />
+    <node name="soundtest_pub" pkg="ros_tutorials" type="soundtest_pub.py" output="screen"/>
+    <node name="soundtest_sub" pkg="ros_tutorials" type="soundtest_sub.py" output="screen"/>
+</launch>
